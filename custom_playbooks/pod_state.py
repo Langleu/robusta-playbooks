@@ -10,6 +10,8 @@ def pod_state(event: PodEvent):
         )
         return
 
+    print("log me")
+
     # this is how you send data to slack or other destinations
     event.add_enrichment([
         MarkdownBlock("*Pod State* " + pod)
