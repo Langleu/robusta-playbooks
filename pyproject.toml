@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "custom_playbooks"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["Langleu <lars.lange@camunda.com>"]
 
