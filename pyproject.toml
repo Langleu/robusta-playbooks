@@ -1,11 +1,12 @@
 [tool.poetry]
 name = "custom_playbooks"
-version = "0.1.1"
+version = "0.1.2"
 description = ""
 authors = ["Langleu <lars.lange@camunda.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+hikaru = "^0.11.0b0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
